@@ -2,7 +2,15 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  line-height: 1.5;
+}
+
+.app-container {
+  padding: 16px;
+  max-width: 1280px;
+  margin: auto;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .logo {
@@ -35,6 +43,18 @@
 
 .card {
   padding: 2em;
+}
+
+.btn {
+  border-radius: 16px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
 }
 
 .read-the-docs {

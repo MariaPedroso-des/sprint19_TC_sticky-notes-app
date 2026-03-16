@@ -1,0 +1,35 @@
+.noteList {
+  display: flex;
+  flex-wrap: wrap;
+  gap:16px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 180px;
+  min-height: 120px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px rgba(179, 171, 165, 1);
+  font-family: inherit;
+}
+
+.note:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-out;
+}
+
+.deleteBtn {
+  align-self: flex-end;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  color: white;
+  background-color: rgb(57, 65, 65);
+}
